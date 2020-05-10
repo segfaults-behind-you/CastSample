@@ -20,7 +20,7 @@ namespace CastSample.iOS.CustomControls
                 _nativeCastButton = new UICastButton();
                 SetNativeControl(_nativeCastButton);
                 _nativeCastButton.SetNeedsLayout();
-	        }
+            }
         }
     }
 }

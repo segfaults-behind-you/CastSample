@@ -9,9 +9,9 @@
     x:Class="CastSample.MainPage">
     <StackLayout>
         <Label 
-	        Text="Cast button should be active when there are receivers nearby." 
+            Text="Cast button should be active when there are receivers nearby." 
             HorizontalTextAlignment="Center"
-	        VerticalOptions="CenterAndExpand"/>
+            VerticalOptions="CenterAndExpand"/>
         <customcontrols:CastButton
             VerticalOptions="CenterAndExpand" />
     </StackLayout>

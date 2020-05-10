@@ -25,10 +25,10 @@ namespace CastSample.Droid.CustomControls
 
             if (e.NewElement != null)
             {
-				_nativeCastButton = new MediaRouteButton(_context);
-				SetNativeControl(_nativeCastButton);
-				CastButtonFactory.SetUpMediaRouteButton(_context, _nativeCastButton);
-	        }
+                _nativeCastButton = new MediaRouteButton(_context);
+                SetNativeControl(_nativeCastButton);
+                CastButtonFactory.SetUpMediaRouteButton(_context, _nativeCastButton);
+            }
         }
     }
 }

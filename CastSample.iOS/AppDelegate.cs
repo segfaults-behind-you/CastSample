@@ -38,6 +38,6 @@ namespace CastSample.iOS
             CastOptions castOptions = new CastOptions(discoveryCriteria);
 
             CastContext.SetSharedInstance(castOptions);
-		}
+        }
     }
 }
